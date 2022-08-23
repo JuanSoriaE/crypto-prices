@@ -1,0 +1,30 @@
+table {
+  width: 800px;
+  margin: auto;
+  margin-top: 0.5rem;
+  border-spacing: 0.3em;
+  border-radius: 5px;
+}
+
+th, td {
+  padding: 1em 0.8em 1em 0.8em;
+}
+
+th:first-of-type, th:last-of-type {
+  border-left: 0;
+  border-right: 0;
+}
+
+tr {
+  border-radius: 8px;
+}
+
+tr:first-of-type {
+  box-shadow: 0 0 10px rgba(129, 237, 230, 0.5);
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background-color: #232e33;
+}

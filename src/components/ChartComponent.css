@@ -1,0 +1,24 @@
+.timelapse-tags-container {
+  padding: 1em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.timelapse-tags-container > button {
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 17px;
+  outline: none;
+  border: none;
+  color: #9b9b9b;
+  background-color: #444444;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .timelaps-tags-container {
+    overflow-x: scroll;
+    justify-content: flex-start;
+  }
+}

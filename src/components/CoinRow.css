@@ -1,0 +1,48 @@
+td {
+  text-align: center;
+}
+
+.coin-row {
+  box-shadow: 0 0 10px rgba(129, 237, 230, 0.2);
+  cursor: pointer;
+}
+
+.price {
+  text-align: right;
+}
+
+.price::before {
+  content: '$';
+  margin-right: 0.1em;
+}
+
+.price-change {
+  text-align: right;
+}
+
+.price-change::after {
+  content: '%';
+  margin-left: 0.2em;
+}
+
+.percentage-positive {
+  color: #31d400;
+}
+
+.percentage-negative {
+  color: #ff0000;
+}
+
+.name {
+  text-align: left;
+}
+
+.name img {
+  height: 15px;
+  margin-right: 1em;
+}
+
+.symbol {
+  margin-left: 1em;
+  color: #969696;
+}
